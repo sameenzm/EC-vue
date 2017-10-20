@@ -1,0 +1,10 @@
+%block-center {
+  display: flex;
+  align-items: center; // 上下垂直居中
+  justify-content: center; // 左右垂直居中
+}
+
+@mixin wh($w,$h:$w) {
+  width: $w;
+  height: $h;
+}
